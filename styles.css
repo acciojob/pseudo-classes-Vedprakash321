@@ -1,13 +1,11 @@
-body{
+:root {
     background-color: rgb(135, 206, 235);
-    width:50%;
   }
   
   .page-content {
     max-width: 800px;
     margin: 0 auto;
-    align-content: left;
-    /* padding: 20px; */
+    padding: 20px;
   }
   
   article p:first-child {
@@ -26,6 +24,10 @@ body{
     padding: 10px;
   }
   
+  .styled-list {
+    list-style: none;
+    padding: 0;
+  }
   
   .styled-list li {
     background-color: gray;
