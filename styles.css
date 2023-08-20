@@ -1,14 +1,10 @@
-*{
-    padding:0;
-    margin:0;
-    box-sizing:border-box;
-}
+
 :root {
   
     background-color: rgb(135, 206, 235);
   }
   
-  .page-content {
+.page-content {
     max-width: 100%;
     margin: 0;
     padding: 20px;
@@ -30,10 +26,7 @@
     padding: 10px;
   }
   
-  .styled-list {
-    
-    padding: 0;
-  }
+  
   
   .styled-list li {
     background-color: gray;
