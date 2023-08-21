@@ -5,49 +5,46 @@
 :root {
   
     background-color: rgb(135, 206, 235);
-  }
+}
   
 .page-content {
     max-width: 100vw;
-    margin: 0;
-    padding: 20px;
-  }
+    padding: 5px;
+}
   
-  article p:first-child {
+article p:first-child {
     color: white;
     background-color: black;
-    padding: 10px;
-  }
+/*     padding: 10px; */
+}
   
-  article p:nth-child(2) {
+article p:nth-child(2) {
     color: black;
-    padding: 10px;
-  }
-  
-  article p:last-child {
+/*     padding: 10px; */
+}
+
+article p:last-child {
     color: red;
-    padding: 10px;
-  }
+/*     padding: 10px; */
+}
   
-  
-  
-  .styled-list li {
+.styled-list li {
     background-color: gray;
     padding: 10px;
     width: 50%;
-  }
-  .shift{
+}
+.shift{
 	  
 	  padding-left:30px;
-  }
-  .styled-list li:nth-child(odd) {
+}
+.styled-list li:nth-child(odd) {
     background-color: white;
-  }
+}
   
-  .styled-list li:first-child,
-  .styled-list li:last-child {
+.styled-list li:first-child,
+.styled-list li:last-child {
     font-size: 22px;
-  }
+}
   
   .styled-list li.special-item:nth-last-child(3) {
     background-color: pink;
